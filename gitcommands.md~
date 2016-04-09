@@ -26,6 +26,23 @@ command is:git remote -v
 To edit a file :::::::
 gedit fileName
 
+
+
+To add a file ready for commit
+
+git add .
+
+
+To commit a file.
+
+git commit -m "Message with the commit";
+
+To push the changes...
+
+git push origin master
+
+master is the branch name over which changes to be committed...
+
 To initialize a directory with git:::: 
 git init
 
